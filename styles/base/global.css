@@ -1,0 +1,128 @@
+/* Базовые настройки */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #000;
+
+  font-family: "IBM Plex Mono", monospace;
+  color: #fff;
+  line-height: normal;
+}
+
+section {
+  max-width: 1165px;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+
+/* Заголовки */
+h1 {
+  width: 919px;
+  height: 205px;
+
+  color: #1bff07;
+  font-size: 80px;
+  line-height: 70px;
+  letter-spacing: -2.4px;
+}
+
+h2 {
+  font-size: 55px; 
+  letter-spacing: -1.65px;
+}
+
+h3 {
+  font-size: 35px;
+  letter-spacing: -1.05px;
+}
+
+h4,
+.nav__item-text {
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  text-transform: lowercase;
+}
+
+p {
+  font-size: 22px;
+  letter-spacing: -0.66px;
+}
+
+.footer-nav__network {
+  color: #000;
+  font-family: Manrope;
+  font-size: 22px;
+  letter-spacing: -0.66px;
+}
+
+.footer__detail-rights {
+  color: #000;
+  font-family: Manrope;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+}
+
+@media (max-width: 1199px) {
+  section {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 60px;
+    letter-spacing: -1.8px;
+  }
+
+  h2 {
+    font-size: 45px;
+    letter-spacing: -1.35px;
+  }
+
+  h3 {
+    font-size: 28px;
+    letter-spacing: -0.84px;
+  }
+
+  p {
+    font-size: 18px;
+    letter-spacing: -0.54px;
+  }
+
+  .footer-nav__network {
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+
+  .footer__detail-rights {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    width: 100%;
+    padding-bottom: 100px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 47px; 
+    letter-spacing: -1.2px;
+  }
+
+  h2 {
+    font-size: 30px;
+    letter-spacing: -0.9px;
+  }
+
+  .footer-nav__network {
+    font-size: 15px;
+    letter-spacing: -0.45px;
+  }
+
+  .footer__detail-rights {
+    font-size: 13px;
+    letter-spacing: -0.39px;
+  }
+}

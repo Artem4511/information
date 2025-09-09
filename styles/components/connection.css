@@ -1,0 +1,175 @@
+/* connection */
+.connection {
+  position: relative;
+  max-height: 1000px;
+
+  background-image: url("../../img/connection/connection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 30px;
+}
+
+.connection section {
+  padding-bottom: 101px;
+}
+
+.connection-title {
+  max-width: 553px;
+  padding: 100px 0 60px 5px;
+
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+
+.connection__list {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding-left: 8px;
+}
+
+.connection__input {
+  width: 567px;
+  height: 60px;
+  border: none;
+
+  padding-left: 40px;
+  border-radius: 1000px;
+  background: #3b3d3b;
+
+  color: white;
+  font-family: "IBM Plex Mono";
+  font-size: 22px;
+  letter-spacing: -0.66px;
+}
+
+.connection__input::placeholder {
+  color: #fff;
+  font-family: "IBM Plex Mono";
+  font-size: 22px;
+  letter-spacing: -0.66px;
+}
+
+.connection-wrapper {
+  padding: 60px 0 0 8px;
+}
+
+.connection__send {
+  width: 419px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #1bff07;
+
+  color: #000;
+  font-size: 22px;
+  letter-spacing: -0.66px;
+  text-align: center;
+}
+
+@media (max-width: 1199px) {
+  .connection {
+    max-height: 484px;
+    border-radius: 21px;
+  }
+
+  .connection section {
+    padding-bottom: 86px;
+  }
+
+  .connection-title {
+    max-width: 373px;
+    padding: 50px 0 60px 50px;
+
+    font-size: 40px;
+    line-height: 40.5px;
+    letter-spacing: -1.2px;
+  }
+
+  .connection__list {
+    gap: 17px;
+    padding-left: 52px;
+  }
+
+  .connection__input {
+    width: 383px;
+    height: 41px;
+    padding-left: 24px;
+
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+
+  .connection__input::placeholder {
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+
+  .connection-wrapper {
+    padding: 40px 0 0 52px;
+  }
+
+  .connection__send {
+    display: block;
+    width: 304px;
+    padding: 13px;
+
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .connection {
+    border-radius: 0;
+    background-image: none;
+    background-color: #191c19;
+  }
+
+  .connection section {
+    padding-bottom: 52px;
+  }
+
+  .connection-title {
+    max-width: 100%;
+    padding: 50px 70px 40px 10px;
+
+    font-size: 35px;
+    line-height: 37.329px;
+    letter-spacing: -1.5px;
+  }
+
+  .connection__list {
+    gap: 15px;
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+
+  .connection__input {
+    width: 100%;
+    height: 38px;
+    padding-left: 21px;
+
+    font-size: 15px;
+    letter-spacing: -0.45px;
+  }
+
+  .connection__input::placeholder {
+    font-size: 15px;
+    letter-spacing: -0.45px;
+  }
+
+  .connection-wrapper {
+    padding: 40px 10px 0 10px;
+  }
+
+  .connection__send {
+    width: 100%;
+    padding: 13px;
+
+    font-size: 11px;
+    letter-spacing: -0.48px;
+  }
+}

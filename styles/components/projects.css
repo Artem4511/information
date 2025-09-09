@@ -1,0 +1,162 @@
+/* projects */
+.projects-title {
+  padding-left: 3px;
+}
+
+.examples {
+  margin: 40px 0 80px;
+  padding: 0 8px;
+}
+
+.examples__item {
+  position: relative;
+  max-height: 550px;
+}
+
+.examples__img {
+  width: 100%;
+  min-height: 445px;
+  object-fit: cover;
+  border-radius: 34px;
+}
+
+.examples__title {
+  position: absolute;
+  top: 50px;
+  left: 45px;
+  padding: 10px 20px;
+
+  border-radius: 100px;
+  background: #1BFF07;
+
+  color: #000;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+}
+
+.examples__head {
+  position: absolute;
+
+  bottom: 94px;
+  left: 50px;
+}
+
+.examples__text {
+  position: absolute;
+
+  bottom: 50px;
+  left: 50px;
+
+  font-size: 30px;
+  letter-spacing: -0.9px;
+}
+
+.all-projects {
+  display: block;
+  max-width: 582px;
+  margin-left: 8px;
+  padding: 56px 85px 58px 86px;
+
+  border-radius: 10px;
+  background: #1bff07;
+
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  text-decoration: none;
+}
+
+.all-projects:hover {
+  background: #000;
+  border: 1px solid #1bff07;
+
+  color: #1bff07;
+}
+
+@media (max-width: 1199px) {
+  .fresh-projects {
+    padding-left: 10px;
+  }
+
+  .examples {
+    margin: 53px 0 64px;
+    padding: 0 15px;
+  }
+
+  .examples__title {
+    top: 40px;
+    left: 35px;
+    padding: 8.087px 16.174px;
+
+    border-radius: 80.87px;
+
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+
+  .examples__head {
+    bottom: 76px;
+    left: 40px;
+  }
+
+  .examples__text {
+    bottom: 40px;
+    left: 40px;
+
+    font-size: 24px;
+    letter-spacing: -0.72px;
+  }
+
+  .all-projects {
+    max-width: 460px;
+    margin-left: 15px;
+    padding: 45px 67px 47px 68px;
+
+    font-size: 24.261px;
+    letter-spacing: -0.728px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fresh-projects {
+    padding-left: 11px;
+  }
+
+  .examples {
+    margin: 34px 0 60px;
+    padding: 0 13px;
+  }
+
+  .examples__title {
+    top: 30px;
+    left: 33px;
+    padding: 6.446px 12.892px;
+
+    border-radius: 64.461px;
+
+    font-size: 13px;
+    letter-spacing: -0.39px;
+  }
+
+  .examples__head {
+    left: 35px;
+  }
+
+  .examples__text {
+    bottom: 50px;
+    left: 35px;
+
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+
+  .all-projects {
+    max-width: 100%;
+    margin: 0 13px;
+    padding: 28px 51px 29px 52px;
+
+    font-size: 24.261px;
+    letter-spacing: -0.728px;
+  }
+}

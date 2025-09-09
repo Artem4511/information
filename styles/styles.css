@@ -1,0 +1,48 @@
+/*.button {
+   Позиционирование 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+
+   Блоковая модель 
+  width: 200px;
+  height: 50px;
+  margin: 20px 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+   Визуал 
+  background: #ad1818;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  Текст 
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+
+   Эффекты 
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background: #900;
+  transform: translateY(-2px);
+}
+*/
+
+@import "base/reset.css";
+@import "base/global.css";
+
+@import "components/header.css";
+@import "components/burger.css";
+@import "components/info.css";
+@import "components/projects.css";
+@import "components/competencies.css";
+@import "components/helping.css";
+@import "components/connection.css";
+@import "components/footer.css";

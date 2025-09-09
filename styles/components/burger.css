@@ -1,0 +1,142 @@
+@media (max-width: 1199px) {
+  .body_fixed {
+    overflow: hidden;
+  }
+
+  .burger-btn {
+    display: block;
+
+    width: 36.006px;
+    height: 24px;
+    background: none;
+    border: none;
+
+    background-image: url("../../img/burger/burger-btn__table.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  .burger {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: right;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+  }
+
+  .burger_open .burger__content {
+    transform: translateX(0px);
+  }
+
+  .burger__content {
+    position: relative;
+
+    width: 362px;
+    height: 650px;
+    padding: 64px 28px;
+
+    background: #000;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in;
+    transform: translateX(100%);
+  }
+
+  .burger_open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .burger__logo {
+    width: 172px;
+    height: 39px;
+
+    border-radius: 100px;
+    border: 1px solid #1bff07;
+    background: #000;
+  }
+
+  .burger__logo-text {
+    padding-left: 9px;
+
+    color: #1bff07;
+    font-size: 42.414px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: -4.666px;
+    text-transform: uppercase;
+  }
+
+  .burger-nav__item {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-top: 44px;
+    vertical-align: top;
+  }
+
+  .burger-nav__item-text {
+    color: #fff;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .burger-nav__item-text:hover {
+    color: #1bff07;
+  }
+
+  .burger-connection {
+    margin-top: 91px;
+
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.48px;
+
+    opacity: 0.5;
+  }
+
+  .burger-connections {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 14px;
+  }
+
+  .burger-connections__item {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+  }
+
+  .burger-btn_open {
+    position: absolute;
+    top: 20px;
+    right: 21px;
+    width: 34px;
+    height: 34px;
+
+    background: none;
+    border: none;
+    background-image: url("../../img/burger/burger-close.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 767px) {
+  .burger__content {
+    width: 300px;
+  }
+}

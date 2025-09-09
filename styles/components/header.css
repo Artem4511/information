@@ -1,0 +1,88 @@
+/* header */
+.fullscreen {
+  display: block;
+  position: relative;
+
+  width: 100%;
+  height: 765px;
+  margin-bottom: 150px;
+
+  background-image: url("../../img/header/fullscreen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.container__fullscreen {
+  padding: 36px 7px 259px 6px;
+  margin-bottom: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 170px;
+  height: 39px;
+
+  border-radius: 100px;
+  background: #000;
+}
+
+.nav__logo-text {
+  padding-left: 9px;
+
+  color: #1bff07;
+  font-size: 42.414px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: -4.666px;
+  text-transform: uppercase;
+}
+
+.nav__item {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  vertical-align: top;
+}
+
+.nav__item-text {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__item-text:hover {
+  color: #1bff07;
+}
+
+.burger-btn {
+  display: none;
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 1199px) {
+  .fullscreen {
+    margin-bottom: 100px;
+    background-image: url("../../img/header/fullscreen__tablet.jpg");
+  }
+
+  .container__fullscreen {
+    padding: 32px 3px 297px 13px;
+  }
+
+  .nav__item {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen {
+    height: 716px;
+  }
+}
